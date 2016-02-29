@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm 4.4.2 Kernel Configuration
+# Linux/arm 4.4.3 Kernel Configuration
 #
 CONFIG_ARM=y
 CONFIG_SYS_SUPPORTS_APM_EMULATION=y
@@ -2376,6 +2376,7 @@ CONFIG_GPIO_SYSFS=y
 #
 # CONFIG_GPIO_74XX_MMIO is not set
 # CONFIG_GPIO_ALTERA is not set
+CONFIG_GPIO_BCM_VIRT=y
 # CONFIG_GPIO_DWAPB is not set
 # CONFIG_GPIO_EM is not set
 # CONFIG_GPIO_GENERIC_PLATFORM is not set
@@ -4423,7 +4424,6 @@ CONFIG_IIO_KFIFO_BUF=m
 # CONFIG_MMA9553 is not set
 # CONFIG_MXC4005 is not set
 # CONFIG_STK8312 is not set
-# CONFIG_STK8BA50 is not set
 
 #
 # Analog to digital converters
