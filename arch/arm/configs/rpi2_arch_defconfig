@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm 4.4.3 Kernel Configuration
+# Linux/arm 4.4.5 Kernel Configuration
 #
 CONFIG_ARM=y
 CONFIG_SYS_SUPPORTS_APM_EMULATION=y
@@ -4441,7 +4441,7 @@ CONFIG_IIO_KFIFO_BUF=m
 # CONFIG_MAX1027 is not set
 # CONFIG_MAX1363 is not set
 CONFIG_MCP320X=m
-# CONFIG_MCP3422 is not set
+CONFIG_MCP3422=m
 # CONFIG_NAU7802 is not set
 # CONFIG_TI_ADC081C is not set
 # CONFIG_TI_ADC128S052 is not set
@@ -5138,7 +5138,6 @@ CONFIG_OLD_MCOUNT=y
 # CONFIG_DEBUG_LL is not set
 CONFIG_DEBUG_LL_INCLUDE="mach/debug-macro.S"
 # CONFIG_DEBUG_UART_8250 is not set
-# CONFIG_DEBUG_UART_BCM63XX is not set
 CONFIG_UNCOMPRESS_INCLUDE="mach/uncompress.h"
 # CONFIG_ARM_KPROBES_TEST is not set
 # CONFIG_PID_IN_CONTEXTIDR is not set
